@@ -609,7 +609,15 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -621,6 +629,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d53613de-2b1a-4eeb-bd13-9c09b173f45c",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
