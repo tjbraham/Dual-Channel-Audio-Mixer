@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Mixer_Custom_Parts")(type "KiCad")(uri "${KIPRJMOD}/Mixer_Custom_Parts.pretty")(options "")(descr ""))
+)
