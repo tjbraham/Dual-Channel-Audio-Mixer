@@ -1713,100 +1713,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ltspice:GND"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_0"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0) (xy 0 -1.1938) (xy 1.27 0) (xy -1.27 0) (xy 0 -1.1938)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0.0005)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+9V"
 			(power global)
 			(pin_numbers
@@ -7552,8 +7458,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:GND")
-		(at 88.9 52.07 0)
+		(lib_id "power:GND")
+		(at 191.77 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7561,9 +7467,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "37b2fd0b-a40e-40dc-9cc9-888d4f0b8acf")
-		(property "Reference" "#GND007"
-			(at 88.9 52.07 0)
+		(fields_autoplaced yes)
+		(uuid "3449f555-89c1-4c45-8aa0-d129c171c7a1")
+		(property "Reference" "#PWR011"
+			(at 191.77 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,19 +7480,18 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 88.9 52.07 0)
-			(hide yes)
+		(property "Value" "GND"
+			(at 191.77 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.0668 1.0668)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 52.07 0)
+			(at 191.77 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +7502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 52.07 0)
+			(at 191.77 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7606,8 +7512,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7617,13 +7523,13 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "d594f108-5f34-498c-a750-f213a44b22bb")
+		(pin "1"
+			(uuid "c5a37c40-5cb2-4787-856e-48bae190791e")
 		)
 		(instances
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
-					(reference "#GND007")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8304,7 +8210,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 297.18 113.03 270)
+		(at 297.18 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8314,7 +8220,7 @@
 		(dnp no)
 		(uuid "507812f8-dd2c-4c5d-8762-db92d302d90b")
 		(property "Reference" "R23"
-			(at 292.735 113.03 90)
+			(at 301.625 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8325,7 +8231,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 292.735 115.57 90)
+			(at 301.625 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8336,7 +8242,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 297.18 111.252 90)
+			(at 297.18 114.808 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10645,6 +10551,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "873b08f7-79f5-435f-ae2f-022105246d4c")
+		(property "Reference" "#PWR08"
+			(at 135.89 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcdf0653-e723-4a16-a463-57d424b1b2d7")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 201.93 228.6 0)
 		(mirror x)
@@ -11456,6 +11440,84 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "925769b7-5688-4d61-b8fc-02e7261f11f6")
+		(property "Reference" "#PWR07"
+			(at 140.97 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51d43e6d-5d74-495d-ba9b-bfea4d9a1322")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13284,84 +13346,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:GND")
-		(at 191.77 241.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba7af925-129f-4612-b582-78e62731048d")
-		(property "Reference" "#GND021"
-			(at 191.77 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 191.77 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "14175f50-189f-4db2-a4b0-8cf56e09ee4a")
-		)
-		(instances
-			(project "Audio_Mixer_PCB_schematic"
-				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
-					(reference "#GND021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 147.32 228.6 0)
 		(mirror x)
@@ -13827,84 +13811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:GND")
-		(at 140.97 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c5c14d8c-0ac8-469a-b9b5-68a1c3c62020")
-		(property "Reference" "#GND010"
-			(at 140.97 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 140.97 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ba43d9d7-cff6-404e-9e96-fa884a423315")
-		)
-		(instances
-			(project "Audio_Mixer_PCB_schematic"
-				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 142.24 101.6 270)
 		(unit 1)
@@ -14214,6 +14120,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc32b82a-14e5-4fbf-9af3-21ca03cd15e0")
+		(property "Reference" "#PWR06"
+			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf144933-5a1b-4720-a6bd-40a0ad31903d")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 85.09 180)
 		(unit 1)
@@ -14225,7 +14209,7 @@
 		(dnp no)
 		(uuid "cc866d4f-6611-4e56-b0a5-d102c72ba421")
 		(property "Reference" "R31"
-			(at 86.0298 79.0448 0)
+			(at 92.456 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14236,7 +14220,7 @@
 			)
 		)
 		(property "Value" "68"
-			(at 86.0298 81.915 0)
+			(at 92.456 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14414,84 +14398,6 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ltspice:GND")
-		(at 135.89 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ccff2d60-10d7-4079-ae36-deee1fa63d42")
-		(property "Reference" "#GND018"
-			(at 135.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 135.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "948f07c3-bdf4-4d23-a6a3-7d4e70eb5f3d")
-		)
-		(instances
-			(project "Audio_Mixer_PCB_schematic"
-				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
-					(reference "#GND018")
 					(unit 1)
 				)
 			)
