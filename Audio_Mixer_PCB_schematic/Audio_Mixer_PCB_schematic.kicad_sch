@@ -6282,7 +6282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d0be922-cf1f-48fc-a089-1728b9f959d2")
-		(property "Reference" "Vref_test"
+		(property "Reference" "Vref_test1"
 			(at 269.24 131.3179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6343,7 +6343,7 @@
 		(instances
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
-					(reference "Vref_test")
+					(reference "Vref_test1")
 					(unit 1)
 				)
 			)
