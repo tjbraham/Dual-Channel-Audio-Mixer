@@ -413,6 +413,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:AudioJack3_SwitchTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2082,6 +2205,12 @@
 		(uuid "13c66503-55fa-42f4-9f59-4b21b88c34c0")
 	)
 	(junction
+		(at 266.7 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f900bc-db3a-4dff-8355-be4b39851af7")
+	)
+	(junction
 		(at 177.8 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2124,6 +2253,12 @@
 		(uuid "24bd0957-4634-423c-a0d9-8216ef714861")
 	)
 	(junction
+		(at 351.79 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29b8efba-10d2-405e-aff8-e05f6143a5ef")
+	)
+	(junction
 		(at 259.08 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2142,10 +2277,22 @@
 		(uuid "2d8fca9d-3d22-445e-85e6-a6398edb70a1")
 	)
 	(junction
+		(at 288.29 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e078090-a60d-4987-bcac-1b8815b36a1b")
+	)
+	(junction
 		(at 243.84 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f3814ce-9645-4a37-b340-e83686ffa880")
+	)
+	(junction
+		(at 71.12 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313650a1-898e-4da1-85f9-f8c23f5f5cf9")
 	)
 	(junction
 		(at 121.92 201.93)
@@ -2286,6 +2433,12 @@
 		(uuid "705e603c-5d2d-4289-9d2d-ff0ec3dd90d7")
 	)
 	(junction
+		(at 417.83 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71f0e239-1db3-4737-82eb-0b470d1c729c")
+	)
+	(junction
 		(at 184.15 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2296,6 +2449,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "835a98ed-7e3d-4ef3-8874-c90422086498")
+	)
+	(junction
+		(at 240.03 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a3ae9a-28f8-422d-8df4-0394fcfb30df")
 	)
 	(junction
 		(at 113.03 113.03)
@@ -2382,6 +2541,12 @@
 		(uuid "d2de5beb-163e-4a6d-a8f3-44be233667a9")
 	)
 	(junction
+		(at 24.13 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d33f895a-395a-4d01-949d-f2e71748546a")
+	)
+	(junction
 		(at 210.82 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2446,6 +2611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee0916fa-fbb4-4bb8-a450-3ad2d7a103a3")
+	)
+	(junction
+		(at 240.03 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1dea83b-f7e6-4c80-9264-a3ec22fb6a0e")
 	)
 	(junction
 		(at 140.97 113.03)
@@ -2579,6 +2750,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 121.92) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d3438d-878e-48e7-aaa4-55c929f1be6d")
+	)
+	(wire
+		(pts
 			(xy 142.24 170.18) (xy 142.24 166.37)
 		)
 		(stroke
@@ -2619,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 201.93) (xy 76.2 201.93)
+			(xy 68.58 201.93) (xy 71.12 201.93)
 		)
 		(stroke
 			(width 0)
@@ -2659,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 77.47) (xy 29.21 77.47)
+			(xy 21.59 77.47) (xy 24.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 408.94 168.91) (xy 424.18 168.91)
+			(xy 408.94 168.91) (xy 417.83 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 135.89) (xy 267.97 135.89)
+			(xy 265.43 135.89) (xy 266.7 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3359,6 +3540,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 203.2) (xy 351.79 186.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4192753d-c7e6-4779-8389-4b9b959b5a17")
+	)
+	(wire
+		(pts
 			(xy 135.89 173.99) (xy 132.08 173.99)
 		)
 		(stroke
@@ -3449,6 +3640,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 135.89) (xy 267.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a77856d-bb20-4ee7-a088-5f653a06d9b3")
+	)
+	(wire
+		(pts
 			(xy 256.54 226.06) (xy 256.54 229.87)
 		)
 		(stroke
@@ -3509,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 201.93) (xy 76.2 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d2e587-968c-4e8b-8588-d0d78fff48a0")
+	)
+	(wire
+		(pts
 			(xy 234.95 218.44) (xy 234.95 228.6)
 		)
 		(stroke
@@ -3549,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 80.01) (xy 290.83 80.01)
+			(xy 283.21 80.01) (xy 288.29 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -3596,6 +3807,16 @@
 			(type default)
 		)
 		(uuid "59733f72-8222-4aeb-a3b1-69d89f03b684")
+	)
+	(wire
+		(pts
+			(xy 24.13 77.47) (xy 29.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a01746b-df88-4c5b-8571-e2543952215f")
 	)
 	(wire
 		(pts
@@ -3839,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 121.92) (xy 243.84 121.92)
+			(xy 237.49 121.92) (xy 240.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3896,6 +4117,16 @@
 			(type solid)
 		)
 		(uuid "720a4e79-a38c-4e2f-984a-794a24f48ba5")
+	)
+	(wire
+		(pts
+			(xy 240.03 144.78) (xy 256.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ae90ff-de86-4ec4-9ad6-f9d950918637")
 	)
 	(wire
 		(pts
@@ -4199,6 +4430,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 80.01) (xy 290.83 80.01)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8cae613d-dc93-4751-992d-616e68df2231")
+	)
+	(wire
+		(pts
 			(xy 194.31 222.25) (xy 210.82 222.25)
 		)
 		(stroke
@@ -4239,7 +4480,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 213.36) (xy 351.79 186.69)
+			(xy 351.79 213.36) (xy 351.79 203.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -4256,6 +4497,16 @@
 			(type solid)
 		)
 		(uuid "93a7c376-7766-4c45-b2ba-85ede9e38897")
+	)
+	(wire
+		(pts
+			(xy 417.83 168.91) (xy 424.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ade353-0653-4c49-bead-5994ed020881")
 	)
 	(wire
 		(pts
@@ -4419,7 +4670,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 144.78) (xy 256.54 144.78)
+			(xy 237.49 144.78) (xy 240.03 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6020,6 +6271,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0be922-cf1f-48fc-a089-1728b9f959d2")
+		(property "Reference" "Vref_test"
+			(at 269.24 131.3179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 269.24 133.8579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 271.78 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c147998-14c5-404e-988f-99f8596eec4a")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "Vref_test")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 116.84 201.93 270)
 		(unit 1)
@@ -7053,6 +7383,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 288.29 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a2e3e51-038a-4a84-9ccd-262ce7cd27f4")
+		(property "Reference" "top_out_test1"
+			(at 290.83 75.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 290.83 77.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 293.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 288.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2caee6a4-2f4f-42db-95bc-1e022cc7582d")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "top_out_test1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8462fb-0275-4826-97e1-d7e34d3977bc")
+		(property "Reference" "9V_test1"
+			(at 242.57 117.3479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 242.57 119.8879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 245.11 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3a9d5db-31c5-429e-906a-d9ad16b597ba")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "9V_test1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 151.13 172.72 0)
 		(mirror x)
@@ -7165,6 +7653,85 @@
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fc39eb1-0736-4f97-9e7a-ed4f8c9e3cad")
+		(property "Reference" "gnd_test1"
+			(at 242.57 140.2079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 242.57 142.7479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 245.11 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7418759-3045-47a2-805f-85bf1a981880")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "gnd_test1")
+					(unit 1)
 				)
 			)
 		)
@@ -8713,6 +9280,85 @@
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "U3")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "583563eb-4185-441f-aead-c08581afb3cc")
+		(property "Reference" "top_in_test1"
+			(at 26.67 72.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 26.67 75.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 29.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "160367aa-3a76-4079-8ff6-b8f2204f8deb")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "top_in_test1")
+					(unit 1)
 				)
 			)
 		)
@@ -10746,6 +11392,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8835b975-6f7c-4b37-afab-7e43a2e79a9c")
+		(property "Reference" "bot_in_test1"
+			(at 73.66 197.3579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.66 199.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 76.2 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be50738e-2815-4409-b369-0a5714322ed5")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "bot_in_test1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 113.03 270)
 		(unit 1)
@@ -11809,6 +12534,164 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 351.79 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96258308-db3b-49fe-8f00-2336789486be")
+		(property "Reference" "bot_out_test1"
+			(at 354.33 198.6279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 354.33 201.1679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 356.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 351.79 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c16ddc3-a33e-42b1-be1b-8634fe328d11")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "bot_out_test1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 417.83 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96353a3b-89ac-4ebb-b15e-9df6d28396a7")
+		(property "Reference" "fin_out_test1"
+			(at 420.37 164.3379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 420.37 166.8779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 422.91 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 422.91 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 417.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72b6fd45-81c8-4f4e-9397-67db83ac6ec9")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "fin_out_test1")
 					(unit 1)
 				)
 			)
