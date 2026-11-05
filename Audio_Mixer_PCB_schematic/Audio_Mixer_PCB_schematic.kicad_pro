@@ -156,7 +156,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -530,7 +530,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -570,6 +570,12 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
@@ -619,14 +625,32 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Sim.Pins"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -685,7 +709,7 @@
         "uuid": "d53613de-2b1a-4eeb-bd13-9c09b173f45c"
       }
     ],
-    "used_designators": "#PWR6-8,#PWR11,9V_test1,J4-9,TP1-9,Vref_test1,bot_in_test1,bot_out_test1,fin_out_test1,gnd_test1,top_in_test1,top_out_test1",
+    "used_designators": "#PWR12-15,C17-20,J4-9",
     "variants": []
   },
   "sheets": [

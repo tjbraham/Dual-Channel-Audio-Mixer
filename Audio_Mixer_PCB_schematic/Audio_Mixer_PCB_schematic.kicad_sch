@@ -2349,6 +2349,12 @@
 		(uuid "5382f2ba-a9fc-44cf-8621-b3221f05f518")
 	)
 	(junction
+		(at 196.85 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53fd8e62-b5b4-4cc2-8834-ed190f152b1b")
+	)
+	(junction
 		(at 396.24 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2413,6 +2419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67c7825c-b0c3-41e3-b570-f41982bc91bb")
+	)
+	(junction
+		(at 226.06 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b3f58cb-d55d-42b2-86f2-340ab888ca4c")
 	)
 	(junction
 		(at 215.9 140.97)
@@ -2717,6 +2729,16 @@
 			(type solid)
 		)
 		(uuid "04737f89-b658-4318-8319-c7685d4a56ff")
+	)
+	(wire
+		(pts
+			(xy 309.88 177.8) (xy 325.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0480f402-5a97-4817-8c39-3b28ad5905fc")
 	)
 	(wire
 		(pts
@@ -3530,6 +3552,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 172.72) (xy 309.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40042728-7926-4745-8314-8bec8918c35f")
+	)
+	(wire
+		(pts
 			(xy 373.38 170.18) (xy 369.57 170.18)
 		)
 		(stroke
@@ -4030,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 157.48) (xy 325.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d857145-1603-4df1-927f-c13c847ebb95")
+	)
+	(wire
+		(pts
 			(xy 396.24 152.4) (xy 388.62 152.4)
 		)
 		(stroke
@@ -4130,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 177.8) (xy 325.12 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753d78c1-6085-42fc-b17d-11ee7f53fd35")
+	)
+	(wire
+		(pts
 			(xy 160.02 166.37) (xy 142.24 166.37)
 		)
 		(stroke
@@ -4167,6 +4219,16 @@
 			(type solid)
 		)
 		(uuid "783bc7af-356c-41e5-9018-9368ba173d5e")
+	)
+	(wire
+		(pts
+			(xy 309.88 163.83) (xy 325.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a83376-809e-4e6c-8774-e491bf494d0b")
 	)
 	(wire
 		(pts
@@ -4310,6 +4372,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 143.51) (xy 325.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81152399-ed72-49ba-a464-b39207c1435b")
+	)
+	(wire
+		(pts
 			(xy -11.43 76.2) (xy -2.54 76.2)
 		)
 		(stroke
@@ -4437,6 +4509,16 @@
 			(type solid)
 		)
 		(uuid "8cae613d-dc93-4751-992d-616e68df2231")
+	)
+	(wire
+		(pts
+			(xy 309.88 149.86) (xy 309.88 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d81d755-5af6-4149-9d14-b7efcbfb6566")
 	)
 	(wire
 		(pts
@@ -5050,6 +5132,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 160.02) (xy 309.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5ff50f-0e49-485b-807a-4e7dc31f1d3b")
+	)
+	(wire
+		(pts
 			(xy 143.51 175.26) (xy 142.24 175.26)
 		)
 		(stroke
@@ -5437,6 +5529,16 @@
 			(type solid)
 		)
 		(uuid "ddaf948a-21e4-4c86-b516-e9acd0a0fed5")
+	)
+	(wire
+		(pts
+			(xy 325.12 149.86) (xy 309.88 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debfdf8d-09ab-417b-917d-e8b1c8280024")
 	)
 	(wire
 		(pts
@@ -5888,6 +5990,30 @@
 	)
 	(global_label "VRef"
 		(shape input)
+		(at 309.88 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28debecb-02e6-48a1-928b-24f943a0bdd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.7219 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VRef"
+		(shape input)
 		(at 285.75 226.06 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6080,6 +6206,30 @@
 	)
 	(global_label "VRef"
 		(shape input)
+		(at 309.88 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7893fc32-f25f-426b-8815-5809f311797d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.7219 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VRef"
+		(shape input)
 		(at 285.75 204.47 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6248,6 +6398,30 @@
 	)
 	(global_label "VRef"
 		(shape input)
+		(at 309.88 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3ae04dc-78ef-4ca9-b98b-a52ac01044ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.7219 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VRef"
+		(shape input)
 		(at 135.89 242.57 270)
 		(fields_autoplaced yes)
 		(effects
@@ -6267,6 +6441,99 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0490e1a9-d112-4697-95f2-64f37056451e")
+		(property "Reference" "C18"
+			(at 219.71 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 219.71 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 216.8652 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c628cdf-4d3e-48de-aa03-321a25a5ea0f")
+		)
+		(pin "1"
+			(uuid "2d1e9014-762b-428b-8d2d-a0e577f86e4a")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "C18")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6337,6 +6604,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 266.7 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c147998-14c5-404e-988f-99f8596eec4a")
 		)
@@ -6371,7 +6649,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 114.3 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6428,6 +6706,17 @@
 		)
 		(property "Sim.Params" "C=${VALUE}"
 			(at 116.84 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1744"
+			(at 116.84 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6619,6 +6908,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 265.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8701a471-f5de-4e5f-b231-651e8ed1ee2a")
 		)
@@ -6690,6 +6990,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 17.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 17.78 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,6 +7090,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 405.13 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bdf855d7-2236-40ee-add1-488088c8e91e")
 		)
@@ -6789,6 +7111,84 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b5a6d1d-fad0-4828-a58f-c725006f1b1b")
+		(property "Reference" "#PWR015"
+			(at 196.85 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f66ba4a2-de9c-4da2-a639-df33023d6fe9")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6816,7 +7216,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 179.705 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,6 +7273,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 184.15 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
+			(at 184.15 229.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,6 +7373,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 64.77 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbcde2e9-4699-489e-9d70-f5d0972a943f")
 		)
@@ -7034,6 +7456,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 256.54 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7147,6 +7580,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 270.51 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d040871a-0117-406b-b790-b46291744400")
 		)
@@ -7228,6 +7672,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6963"
+			(at 147.32 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e8e09953-9f06-45ff-8043-959125c97416")
 		)
@@ -7275,6 +7730,99 @@
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "U2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 205.74 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23b82aea-7539-4b5b-a4bc-2c4b755e0f73")
+		(property "Reference" "C19"
+			(at 209.55 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 209.55 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 206.7052 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3402ad1-933e-4cae-a9be-857333c2a886")
+		)
+		(pin "1"
+			(uuid "c99b0400-2936-4595-9782-0829bd8b55ec")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "C19")
+					(unit 1)
 				)
 			)
 		)
@@ -7367,6 +7915,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26010"
+			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36ada888-7f6e-40d2-88d8-6e684063abbb")
 		)
@@ -7439,6 +7998,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 288.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 288.29 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7528,6 +8098,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d3a9d5db-31c5-429e-906a-d9ad16b597ba")
 		)
@@ -7596,6 +8177,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 151.13 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 151.13 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7724,6 +8316,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 240.03 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7418759-3045-47a2-805f-85bf1a981880")
 		)
@@ -7758,7 +8361,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 124.46 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7815,6 +8418,17 @@
 		)
 		(property "Sim.Params" "C=${VALUE}"
 			(at 127 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1744"
+			(at 127 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7927,6 +8541,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C13967"
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba914780-7604-4d19-b75c-f8871f0fdcdf")
 		)
@@ -7999,6 +8624,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 256.54 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 256.54 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8167,6 +8803,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 48.26 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc8115e9-5430-4a84-8f1a-7f0f1149bb1c")
 		)
@@ -8204,7 +8851,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 68.58 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8270,6 +8917,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1744"
+			(at 71.12 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc303744-8383-4763-99e4-fd0f6715cbfc")
 		)
@@ -8307,7 +8965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 133.0198 207.645 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8363,6 +9021,17 @@
 			)
 		)
 		(property "Sim.Params" "R=${VALUE}"
+			(at 135.89 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
 			(at 135.89 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -8476,6 +9145,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C13967"
+			(at 90.17 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5577c12e-4322-4aac-81b0-b41cc5e6464f")
 		)
@@ -8570,6 +9250,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 128.27 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C26010"
+			(at 128.27 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,6 +9373,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 240.03 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5c165562-72f5-42f3-a0d0-3c015491a925")
 		)
@@ -8692,6 +9394,84 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b7bd2a-6328-4192-99b0-d2b1a01ab8ab")
+		(property "Reference" "#PWR012"
+			(at 226.06 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5af251b-328e-41c5-afda-ec5c69e82482")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8863,6 +9643,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 297.18 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a70ec3c-7124-48cf-8e19-a694f1238972")
 		)
@@ -8900,7 +9691,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 131.445 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8957,6 +9748,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 135.89 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
+			(at 135.89 191.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9048,6 +9850,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 285.75 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "265da3ce-bdd7-4bf2-9da9-f46dabbc304f")
 		)
@@ -9062,6 +9875,133 @@
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "RV4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 317.5 157.48 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "519818d9-9ca5-41c2-bb97-82b7d8e91ec1")
+		(property "Reference" "U4"
+			(at 317.5 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 317.5 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 316.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 318.77 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 317.5 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
+			(at 317.5 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8deff97-915a-4310-9a53-bacf8f1f757c")
+		)
+		(pin "2"
+			(uuid "3d2c95da-5f2d-4634-8ea6-fd7a046221ed")
+		)
+		(pin "3"
+			(uuid "3d82c9f5-ae8a-41bc-a8f6-975f8ae8603e")
+		)
+		(pin "5"
+			(uuid "4a64028e-9e29-4a68-8c84-9feec17b37e4")
+		)
+		(pin "6"
+			(uuid "9d805324-882f-4b6f-9b40-62c443f940e5")
+		)
+		(pin "11"
+			(uuid "e9d2e85d-8907-4364-b71b-8aec240fe8b1")
+		)
+		(pin "7"
+			(uuid "05b91976-6e28-486a-8cd0-43241f24342d")
+		)
+		(pin "8"
+			(uuid "de4de089-a1a4-4293-82db-c92979a4418d")
+		)
+		(pin "9"
+			(uuid "74afb69d-91e9-4d12-a165-7dc87133e6af")
+		)
+		(pin "10"
+			(uuid "a6cbe85f-cfde-45ad-9217-0891b8fb1ac3")
+		)
+		(pin "12"
+			(uuid "ffb4bf7b-601d-46e4-85c8-081a7f8ec42b")
+		)
+		(pin "13"
+			(uuid "23837da8-1244-4fe7-b19b-9238d870b107")
+		)
+		(pin "14"
+			(uuid "7d0229c2-54d2-4ca0-9d75-a94aff58476c")
+		)
+		(pin "4"
+			(uuid "a158bea9-d7b9-4fc9-89f7-33275bcab46f")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
@@ -9154,6 +10094,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26010"
+			(at 88.9 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dce66a58-342c-4041-a32e-7e123aee3461")
 		)
@@ -9165,6 +10116,133 @@
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "R28")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 317.5 143.51 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54773f82-3889-4508-a283-13a13ec4b433")
+		(property "Reference" "U4"
+			(at 317.5 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 317.5 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 316.23 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 318.77 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 317.5 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
+			(at 317.5 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8deff97-915a-4310-9a53-bacf8f1f757c")
+		)
+		(pin "2"
+			(uuid "3d2c95da-5f2d-4634-8ea6-fd7a046221ed")
+		)
+		(pin "3"
+			(uuid "3d82c9f5-ae8a-41bc-a8f6-975f8ae8603e")
+		)
+		(pin "5"
+			(uuid "4a64028e-9e29-4a68-8c84-9feec17b37e4")
+		)
+		(pin "6"
+			(uuid "9d805324-882f-4b6f-9b40-62c443f940e5")
+		)
+		(pin "11"
+			(uuid "e9d2e85d-8907-4364-b71b-8aec240fe8b1")
+		)
+		(pin "7"
+			(uuid "05b91976-6e28-486a-8cd0-43241f24342d")
+		)
+		(pin "8"
+			(uuid "de4de089-a1a4-4293-82db-c92979a4418d")
+		)
+		(pin "9"
+			(uuid "74afb69d-91e9-4d12-a165-7dc87133e6af")
+		)
+		(pin "10"
+			(uuid "a6cbe85f-cfde-45ad-9217-0891b8fb1ac3")
+		)
+		(pin "12"
+			(uuid "ffb4bf7b-601d-46e4-85c8-081a7f8ec42b")
+		)
+		(pin "13"
+			(uuid "23837da8-1244-4fe7-b19b-9238d870b107")
+		)
+		(pin "14"
+			(uuid "7d0229c2-54d2-4ca0-9d75-a94aff58476c")
+		)
+		(pin "4"
+			(uuid "a158bea9-d7b9-4fc9-89f7-33275bcab46f")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -9223,6 +10301,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 208.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 208.28 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9351,6 +10440,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 24.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "160367aa-3a76-4079-8ff6-b8f2204f8deb")
 		)
@@ -9420,6 +10520,17 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 220.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 220.98 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9536,6 +10647,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26010"
+			(at 64.77 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02ab05f5-7394-4a05-abb3-0b97c16f145b")
 		)
@@ -9605,6 +10727,17 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 438.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 438.15 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9694,6 +10827,17 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 31.75 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 31.75 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9816,6 +10960,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26010"
+			(at 135.89 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a9f4521-698b-48d2-b0f8-1bef563d9aa0")
 		)
@@ -9919,6 +11074,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C13967"
+			(at 81.28 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6aaa1448-68de-49f3-81ad-5686fdc132ea")
 		)
@@ -10001,6 +11167,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 224.79 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "22b0f426-3537-48d0-bbd2-dcd301ab3d76")
 		)
@@ -10073,6 +11250,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 275.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 275.59 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10222,6 +11410,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 231.14 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "317836e5-6fca-4b4e-b9a6-7663a9e599b1")
 		)
@@ -10315,6 +11514,17 @@
 			)
 		)
 		(property "Sim.Params" "R=${VALUE}"
+			(at 76.2 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17514"
 			(at 76.2 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10483,6 +11693,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 1.27 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "129e4879-37db-45b4-8113-31579c8f9331")
 		)
@@ -10493,6 +11714,84 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a07d78-8b4b-4159-8ff1-f2e8d3560a0a")
+		(property "Reference" "#PWR014"
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e40adaf7-5b54-4809-b216-e9a38dc8c593")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10520,7 +11819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 142.875 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10586,6 +11885,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1744"
+			(at 140.97 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "83093171-985e-47ab-8dd9-24046f118e29")
 		)
@@ -10596,6 +11906,99 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "744784a5-9312-48ce-97e4-08036de874ad")
+		(property "Reference" "C20"
+			(at 200.66 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 200.66 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 197.8152 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 196.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b66be181-b3d4-4212-a858-3ba5da66be07")
+		)
+		(pin "1"
+			(uuid "000fe3b3-a4b3-49a8-a5d3-b00656791b3c")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10689,6 +12092,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 300.99 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1238468d-c51a-4ba4-ac11-68bec6465aab")
 		)
@@ -10758,6 +12172,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 199.39 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 199.39 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10886,6 +12311,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 408.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed390720-45ef-415b-8b97-cbb14b0a31be")
 		)
@@ -10979,6 +12415,17 @@
 			)
 		)
 		(property "Sim.Params" "C=${VALUE}"
+			(at 135.89 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13967"
 			(at 135.89 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -11092,6 +12539,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 256.54 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a48de238-5e09-420f-b837-5d903ca366f7")
 		)
@@ -11162,6 +12620,17 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at -16.51 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at -16.51 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11340,6 +12809,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6963"
+			(at 201.93 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e8e09953-9f06-45ff-8043-959125c9741a")
 		)
@@ -11458,6 +12938,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 71.12 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be50738e-2815-4409-b369-0a5714322ed5")
 		)
@@ -11492,7 +12983,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 131.064 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11549,6 +13040,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 132.08 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
+			(at 132.08 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11627,6 +13129,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 340.36 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 340.36 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -11764,6 +13277,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 247.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "69fadc29-973c-4236-b54a-df946da163aa")
 		)
@@ -11857,6 +13381,17 @@
 			)
 		)
 		(property "Sim.Params" "R=${VALUE}"
+			(at 205.74 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 205.74 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11970,6 +13505,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 173.99 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e76f91a-07df-4b9e-8c79-e1ba8ceaaa3e")
 		)
@@ -12042,6 +13588,17 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 237.49 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12146,6 +13703,17 @@
 		)
 		(property "Sim.Params" "C=${VALUE}"
 			(at 127 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13967"
+			(at 127 229.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12336,6 +13904,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17514"
+			(at 29.21 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3eee4830-22b6-4bb7-badd-b48002b67a02")
 		)
@@ -12373,7 +13952,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 189.23 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12430,6 +14009,17 @@
 		)
 		(property "Sim.Params" "C=${VALUE}"
 			(at 191.77 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1744"
+			(at 191.77 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12511,6 +14101,17 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 285.75 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 285.75 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -12606,6 +14207,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 351.79 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7c16ddc3-a33e-42b1-be1b-8634fe328d11")
 		)
@@ -12675,6 +14287,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 417.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 417.83 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12755,6 +14378,17 @@
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 237.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 237.49 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12867,6 +14501,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 384.81 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "172b5b07-3646-4d5b-a45c-853c1af1736a")
 		)
@@ -12904,7 +14549,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 119.888 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12961,6 +14606,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
+			(at 120.65 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13073,6 +14729,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26010"
+			(at 81.28 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fdfbb565-fb2a-43e9-8901-937c22ceba5d")
 		)
@@ -13144,6 +14811,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13293,6 +14971,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26010"
+			(at 135.89 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b35b923-c43e-411a-a9c4-48fc8d1196c7")
 		)
@@ -13330,7 +15019,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 78.74 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13387,6 +15076,17 @@
 		)
 		(property "Sim.Params" "C=${VALUE}"
 			(at 81.28 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1744"
+			(at 81.28 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13499,6 +15199,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 240.03 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38d7e78f-1410-41dc-bb7a-9ca3662be8c5")
 		)
@@ -13602,6 +15313,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C13967"
+			(at 71.12 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e6cb1635-f4b4-4a2f-a18c-034004bee924")
 		)
@@ -13673,6 +15395,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 243.84 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 243.84 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13798,6 +15531,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6963"
+			(at 228.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e8e09953-9f06-45ff-8043-959125c9741d")
 		)
@@ -13850,6 +15594,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 215.9 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "accaaf7b-79c7-4a6b-bf76-cc47c664ad28")
+		(property "Reference" "#PWR013"
+			(at 215.9 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "986b0447-085f-45fa-9fd0-b0496447998d")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 191.77 237.49 0)
 		(unit 1)
@@ -13871,7 +15693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 193.675 241.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13927,6 +15749,17 @@
 			)
 		)
 		(property "Sim.Params" "C=${VALUE}"
+			(at 191.77 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1744"
 			(at 191.77 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14095,6 +15928,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6963"
+			(at 193.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b8bd6f18-e00c-4984-a396-40d36a1180b9")
 		)
@@ -14213,6 +16057,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 44.45 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "168367be-d4e9-426e-9457-c73044a5f15a")
 		)
@@ -14284,6 +16139,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 147.32 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 147.32 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -14412,6 +16278,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 285.75 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "cde2ac40-8a3a-4c24-a490-5a14350e2ec3")
 		)
@@ -14487,6 +16364,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C26010"
 			(at 243.84 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14678,6 +16566,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26010"
+			(at 116.84 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed625214-b78e-4f34-9292-97c638201280")
 		)
@@ -14715,7 +16614,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4.7n"
 			(at 139.7 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14772,6 +16671,17 @@
 		)
 		(property "Sim.Params" "C=${VALUE}"
 			(at 142.24 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1744"
+			(at 142.24 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14884,6 +16794,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C13967"
+			(at 116.84 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cef7ebc9-db07-4dc2-bb56-027b78ab0fd5")
 		)
@@ -14978,6 +16899,17 @@
 		)
 		(property "Sim.Params" "C=${VALUE}"
 			(at 135.89 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13967"
+			(at 135.89 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15102,7 +17034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 92.456 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15158,6 +17090,17 @@
 			)
 		)
 		(property "Sim.Params" "R=${VALUE}"
+			(at 88.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
 			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15271,6 +17214,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 300.99 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5093509-af3a-442b-ae4c-a84ed5aed2db")
 		)
@@ -15343,6 +17297,17 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 224.79 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 224.79 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15459,6 +17424,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 335.28 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb738639-d91d-4571-835c-43a62d3cc489")
 		)
@@ -15553,6 +17529,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 300.99 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C149504"
+			(at 300.99 208.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15665,6 +17652,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 358.14 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d265f58e-57c5-4cf7-a339-75fa1395418e")
 		)
@@ -15676,6 +17674,133 @@
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "R24")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 317.5 170.18 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4580db9-6f3e-4acf-af06-d547f22773de")
+		(property "Reference" "U4"
+			(at 317.5 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 317.5 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 316.23 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 318.77 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 317.5 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
+			(at 317.5 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8deff97-915a-4310-9a53-bacf8f1f757c")
+		)
+		(pin "2"
+			(uuid "3d2c95da-5f2d-4634-8ea6-fd7a046221ed")
+		)
+		(pin "3"
+			(uuid "3d82c9f5-ae8a-41bc-a8f6-975f8ae8603e")
+		)
+		(pin "5"
+			(uuid "4a64028e-9e29-4a68-8c84-9feec17b37e4")
+		)
+		(pin "6"
+			(uuid "9d805324-882f-4b6f-9b40-62c443f940e5")
+		)
+		(pin "11"
+			(uuid "e9d2e85d-8907-4364-b71b-8aec240fe8b1")
+		)
+		(pin "7"
+			(uuid "05b91976-6e28-486a-8cd0-43241f24342d")
+		)
+		(pin "8"
+			(uuid "de4de089-a1a4-4293-82db-c92979a4418d")
+		)
+		(pin "9"
+			(uuid "74afb69d-91e9-4d12-a165-7dc87133e6af")
+		)
+		(pin "10"
+			(uuid "a6cbe85f-cfde-45ad-9217-0891b8fb1ac3")
+		)
+		(pin "12"
+			(uuid "ffb4bf7b-601d-46e4-85c8-081a7f8ec42b")
+		)
+		(pin "13"
+			(uuid "23837da8-1244-4fe7-b19b-9238d870b107")
+		)
+		(pin "14"
+			(uuid "7d0229c2-54d2-4ca0-9d75-a94aff58476c")
+		)
+		(pin "4"
+			(uuid "a158bea9-d7b9-4fc9-89f7-33275bcab46f")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "U4")
+					(unit 4)
 				)
 			)
 		)
@@ -15734,6 +17859,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 388.62 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 388.62 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15940,6 +18076,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6963"
+			(at 105.41 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e8e09953-9f06-45ff-8043-959125c9741f")
 		)
@@ -16091,7 +18238,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 85.725 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16148,6 +18295,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 90.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
+			(at 90.17 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16228,6 +18386,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 157.48 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 157.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16377,6 +18546,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 240.03 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2503b785-ce27-40ae-94ab-282bc7f13c8e")
 		)
@@ -16387,6 +18567,98 @@
 			(project "Audio_Mixer_PCB_schematic"
 				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef31676d-fe9a-4540-bab0-a78e05e681a5")
+		(property "Reference" "C17"
+			(at 229.87 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 230.124 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 225.0948 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 226.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 226.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4d9a078-ac52-47d5-8a9e-6730169524b2")
+		)
+		(pin "2"
+			(uuid "a3a9827e-7434-444b-94ed-7cb5387b8496")
+		)
+		(instances
+			(project "Audio_Mixer_PCB_schematic"
+				(path "/d53613de-2b1a-4eeb-bd13-9c09b173f45c"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16448,6 +18720,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16576,6 +18859,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at -2.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "857560b9-b381-4d37-a0a8-8e79d5fcf278")
 		)
@@ -16613,7 +18907,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "6.8k"
 			(at 159.385 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16670,6 +18964,17 @@
 		)
 		(property "Sim.Params" "R=${VALUE}"
 			(at 163.83 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
+			(at 163.83 229.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16748,6 +19053,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 218.44 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6963"
 			(at 218.44 133.35 0)
 			(hide yes)
 			(show_name no)
