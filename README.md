@@ -26,7 +26,7 @@ A custom single-supply ($9\text{ V}$) dual-channel analog audio mixer featuring 
 * **Click-Free Potentiometer Biasing:** All six $10\text{ k}\Omega$ band-level potentiometers (`RV1`–`RV6`) tie their reference terminals directly to `VRef` rather than `GND`. Keeping the wiper and the op-amp summing nodes at an identical $4.5\text{ V}$ DC potential eliminates DC current flow through the potentiometer wipers, preventing scratchy audio noise when adjusting EQ levels.
 
 ### 2. 3-Band Sallen-Key Crossover & Impedance Scaling
-Each input channel splits into three parallel active filter branches designed around equal-$R$, equal-$C$ unity-gain Sallen-Key topologies ($Q = 0.5$):
+Each input channel splits into three parallel active filter branches designed around equal-$`R`$, equal-$`C`$ unity-gain Sallen-Key topologies ($Q = 0.5$):
 * **Low-Pass Band (`U1A`, `U2C`):** Uses $R = 3.3\text{ k}\Omega$ (`R26`/`R27`, `R12`/`R13`) and $C = 470\text{ nF}$ (`C9`/`C10`, `C21`/`C22`) to set a cutoff frequency of:
   $$f_{c,\text{LP}} = \frac{1}{2\pi (3.3\text{ k}\Omega)(470\text{ nF})} = 102.61\text{ Hz}$$
 * **High-Pass Band (`U1B`, `U2D`) & Impedance Scaling:** Uses $C = 4.7\text{ nF}$ (`C13`/`C14`, `C5`/`C7`) and $R = 6.8\text{ k}\Omega$ (`R30`/`R31`, `R14`/`R42`) to set a cutoff frequency of:
