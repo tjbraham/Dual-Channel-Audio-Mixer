@@ -89,18 +89,20 @@ Each input channel splits into three parallel active filter branches designed ar
 ## Repository Structure
 
 ```text
-├── docs/
-│   ├── Audio_Mixer_PCB_schematic.pdf   # Full KiCad 10.0 schematic diagram
-│   ├── pcb_3d_render.png               # 3D board render
-│   └── pcb_layers_preview.jpg          # F.Cu (VRef) and B.Cu (GND) copper views
-├── fabrication/
-│   ├── gerbers/                        # Gerber (.gbr) & Excellon drill (.drl) files
-│   ├── bom.csv                         # JLCPCB-formatted Bill of Materials with LCSC numbers
-│   └── positions.csv                   # Component Placement List (CPL) for SMT pick-and-place
-├── simulation/
-│   └── sallen_key_crossover.asc        # LTspice active filter & summing simulation
-├── Audio_Mixer_PCB.kicad_pro           # KiCad project file
-├── Audio_Mixer_PCB.kicad_sch           # KiCad schematic file
-├── Audio_Mixer_PCB.kicad_pcb           # KiCad 2-layer PCB layout file
+├── Docs/
+│   ├── Audio_Mixer_PCB_schematic.pdf       # Full KiCad 10.0 schematic diagram
+│   ├── pcb_3d_render.png                   # 3D board render
+│   └── Audio_Mixer_PCB.pdf                 # F.Cu (VRef) and B.Cu (GND) copper views
+│   └── Audio_Mixer_LTspice.pdf             # LTSpice diagram PDF
+├── Schematic_and_PCB/
+│   ├── production/                         # KiCad JLCPCB formatted production files
+│       ├── bom.csv                         # JLCPCB-formatted Bill of Materials with LCSC numbers
+│       └── positions.csv                   # Component Placement List (CPL) for SMT pick-and-place
+│       └── Audio_Mixer_PCB_schematic.zip   # PCB Gerber and Drill files
+├── Simulation/
+│   └── Two_Channel_Audio_Mixer.asc         # LTspice active filter & summing simulation
+├── Audio_Mixer_PCB.kicad_pro               # KiCad project file
+├── Audio_Mixer_PCB.kicad_sch               # KiCad schematic file
+├── Audio_Mixer_PCB.kicad_pcb               # KiCad 2-layer PCB layout file
 └── README.md
 ```
